@@ -52,6 +52,7 @@ p {
 .page-header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-logo {
@@ -82,6 +83,7 @@ p {
 .nav-link {
     font-weight: 500;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -109,11 +111,11 @@ p {
 /* Hero section */
 .hero-section {
     background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-container {
-    padding-top: 188px;
-    padding-bottom: 188px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -141,6 +143,7 @@ p {
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     padding: 16px 32px;
+    min-width: 169px;
 }
 
 .order-button:hover, .order-button:focus {
@@ -149,9 +152,23 @@ p {
 
 /* Features section */
 
+visually-hidden.css .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .features-list {
     display: flex;
-    justify-content: space-between;
+    gap: 24px;
 }
 
 .features-item {
@@ -164,11 +181,11 @@ width: calc((100% - 24px * 3) / 4);
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .features-text {
     color: #434455;
-    margin-top: 8px;
 }
 
 /* Team section */
@@ -185,12 +202,12 @@ width: calc((100% - 24px * 3) / 4);
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .team-list {
-    margin-top: 72px;
     display: flex;
-    justify-content: space-between;
+    gap: 24px;
 }
 
 .team-card {
@@ -227,12 +244,12 @@ width: calc((100% - 24px * 3) / 4);
     line-height: 1.11;
     letter-spacing: 0.0em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .projects-list {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 72px;
     column-gap: 24px;
     row-gap: 48px;
 }
