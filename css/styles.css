@@ -37,6 +37,11 @@ p {
     padding: 0 15px;
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 /* Header */
 .container-header {
     box-sizing: border-box;
@@ -144,11 +149,6 @@ p {
 
 /* Features section */
 
-.features-container {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
 .features-list {
     display: flex;
     justify-content: space-between;
@@ -172,11 +172,6 @@ width: calc((100% - 24px * 3) / 4);
 }
 
 /* Team section */
-
-.team-container {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
 
 .team-section {
     background-color: #F4F4FD;
@@ -223,11 +218,6 @@ width: calc((100% - 24px * 3) / 4);
 }
 
 /* Portfolio section */
-
-.portfolio-container {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
 
 .portfolio-title {
     color: #2e2f42;
